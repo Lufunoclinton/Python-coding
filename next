@@ -1,6 +1,6 @@
 def greet():
     name = input("Please enter your Name :")
-    print("Hello, + " Name +"! Welcome to the python programme.")
+    print("Hello, " + name +"! Welcome to the python programme.")
 
-    if __name__ == "main" :
-        greet()
+if __name__ == "__main__":
+    greet()
