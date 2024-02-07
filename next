@@ -1,0 +1,6 @@
+def greet():
+    name = input("Please enter your Name :")
+    print("Hello, + " Name +"! Welcome to the python programme.")
+
+    if __name__ == "main" :
+        greet()
